@@ -1,0 +1,141 @@
+
+.event-schedule {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column  ;
+  justify-content: space-between;
+}
+
+.schedule-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.schedule-title .highlight {
+  color: #ff7f3f;
+}
+
+.schedule-description {
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.date-selector {
+  display: flex;
+  margin-bottom: 20px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.date-btn {
+  background-color: #fff;
+  border: 1px solid grey;
+  color: #ff7f3f;
+  padding: 30px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.date-btn span{
+  color: black;
+}
+
+.date-btn.active {
+  background-color: #ff7f3f;
+  border: none;
+  color: #fff !important;
+}
+
+.date-btn span:hover{
+  color: white;
+  border: none;
+}
+
+.date-btn:hover {
+  background-color: #ff7f3f;
+  color: #fff !important;
+}
+
+.schedule-table {
+  background: url(https://demo.themefisher.com/eventre-bootstrap/images/background/schedule-bg.png)no-repeat center center/cover;
+  padding: 40px;
+  margin-top: 30px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.table-header {
+  display: flex;
+  padding: 10px 0;
+  background-color: #ff7f3f;
+  color: white;
+  text-align: left;
+  font-weight: bold;
+}
+
+.table-row {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.table-row:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); 
+  z-index: 8;
+}
+
+.table-col {
+  flex: 1;
+  padding: 10px;
+  align-items: center;
+  height: 100px;
+}
+
+.time-col, .subject-col, .venue-col {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column;
+  align-items: center; */
+  /* height: 200px; */
+}
+
+.speaker-col {
+  display: flex;
+  align-items: center;
+  /* width: 400px; */
+  justify-content: center;
+}
+
+.speaker-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.time-col {
+  flex: 0.5;
+}
+
+.speaker-col {
+  flex: 1;
+}
+
+
+.venue-col {
+  flex: 1;
+}
+

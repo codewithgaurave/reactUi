@@ -1,0 +1,124 @@
+.speackingSection {
+  height: 150vh;
+  width: 100%;
+  padding: 50px 0;
+  background: url(https://demo.themefisher.com/eventre-bootstrap/images/background/spaeker-background.jpg)
+    no-repeat center center/cover fixed;
+  text-align: center;
+  color: white;
+}
+
+.sectionTitle h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+.sectionTitle h2 span {
+  color: #ff6600;
+}
+
+.sectionTitle p {
+  font-size: 1rem;
+  margin-bottom: 40px;
+  color: #ddd;
+}
+.speakersGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.speakerCard {
+  position: relative;
+  background: white;
+  color: black;
+  border: 10px solid white;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.speakerCard:hover {
+  transform: scale(1.05);
+}
+
+.speakerCard img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.speakerInfo {
+  padding: 20px;
+}
+
+.speakerInfo h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.speakerInfo p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 72%;
+  background-color: #ff6600af;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+}
+
+.speakerCard:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlayContent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns layout */
+  gap: 10px;
+  justify-items: center;
+  align-items: center;
+}
+
+.overlayContent .overlayItem {
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.overlayItem i{
+    font-size: 2rem;
+}
+
+.overlayContent .overlayItem:hover {
+  transform: scale(1.1);
+}
+
+.overlayContent .overlayItem p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+}

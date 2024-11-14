@@ -1,0 +1,81 @@
+.footereventure {
+  background-color: #1f1f2e;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  height: 60vh;
+}
+.footer-logos {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.footer-logo .highlight {
+  color: #f77e21;
+}
+.social-icons-eventure {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.social-icons-eventure a {
+  background-color: white;
+  color: #333;
+  font-size: 20px;
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+.social-icons-eventure a:hover {
+  background-color: #f77e21;
+  color: #fff;
+}
+.footer-bottom {
+  background-color: #23232e;
+  padding: 20px 0;
+  font-size: 0.9rem;
+  color: #aaa;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer-bottom p {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.footer-bottom a {
+  color: #f77e21;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #ff8b3d;
+}
+
+.scroll-up {
+  position: absolute;
+  right: 20px;
+  bottom: 15px;
+}
+
+.scroll-up a {
+  background-color: #f77e21;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-up a:hover {
+  background-color: #ff8b3d;
+}

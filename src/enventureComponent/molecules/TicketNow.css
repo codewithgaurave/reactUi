@@ -1,0 +1,59 @@
+.mainTNow {
+    height: 60vh;
+    width: 100%;
+    background: 
+        -webkit-linear-gradient(-45deg, #1e579977 0%, #1d154689 0%, #1a0b2560 100%, #207bca82 100%), 
+        url(https://demo.themefisher.com/eventre-bootstrap/images/background/cta-ticket-bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.mainTNow .TicketDetail{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    color: white;
+    padding-top: 120px;
+    padding-left: 100px;
+    font-family: "Roboto", sans-serif;
+}
+
+.TicketDetail h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    padding-bottom: 30px;
+}
+
+.TicketDetail h2 span{
+    font-size: 2.5rem;
+    color: #ff6600;
+    font-style: italic;
+
+}
+
+.TicketDetail p{
+    color: rgba(255, 255, 255, 0.861);
+    font-size: 1.2rem;
+}
+
+.TicketDetail button{
+    width: 200px;
+    /* height: 60px; */
+    padding: 30px 40px;
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: white;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+
+.mainTNow img{
+    position: absolute;
+    right: 30px;
+    bottom:0px;
+    height: 500px;
+}

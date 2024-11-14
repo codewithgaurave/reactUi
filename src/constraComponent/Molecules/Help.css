@@ -1,0 +1,64 @@
+.helpMain{
+    height: 130px;
+    width: 100%;
+    display: flex;
+}
+
+.contactNumber{
+    height: 100%;
+    width: 40%;
+    background-color: #f39c12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+}
+
+.contactNumber p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contactNumber h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+.textInput{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.textInput .text{
+    width: 40%;
+    padding:  0px 30px;
+    /* text-align: center; */
+    /* height: 100%; */
+    /* background-color: #f39c12; */
+}
+.text p{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.textInput .inputArea{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputArea input{
+    width: 60%;
+    padding: 16px;
+    background: transparent;
+    border: none;
+    outline: auto;
+}

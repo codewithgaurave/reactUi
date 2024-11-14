@@ -1,0 +1,126 @@
+.subscribe-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: -webkit-linear-gradient(
+      -45deg,
+      #1e579977 0%,
+      #1d154689 0%,
+      #1a0b2560 100%,
+      #207bca82 100%
+    ),
+    url("https://demo.themefisher.com/eventre-bootstrap/images/background/newsletter-bg.jpg")
+      no-repeat center center/cover fixed;
+  padding: 50px;
+  height: 250px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.subscribe-text {
+  padding-right: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h2 .highlight {
+  color: #ff6600;
+  font-style: italic;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.subscribe-form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 15px;
+  font-size: 1rem;
+  border: none;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.subscribe-button {
+  padding: 15px 30px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.subscribe-button:hover {
+  background-color: #ff6600;
+}
+
+.map {
+  width: 100%;
+  position: relative;
+}
+
+.location-card {
+  background-color: #ff6600;
+  padding: 100px 60px;
+  width: 500px;
+  color: white;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 80px;
+  left: 80px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.location-details {
+  margin-bottom: 20px;
+}
+
+.location-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+.textLocation {
+  font-size: 1.2rem;
+}
+
+.get-direction-button {
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.get-direction-button:hover {
+  background-color: #f0f0f0;
+}

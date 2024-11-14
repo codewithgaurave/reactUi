@@ -1,0 +1,317 @@
+.getTicket{
+    height: 120vh;
+}
+
+.getTicket .infoGet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    font-family: "Roboto", sans-serif;
+}
+
+.infoGet h2{
+    font-size: 2rem;
+    padding-bottom: 30px;
+    letter-spacing: .3rem;
+    color: rgba(0, 0, 0, 0.902);
+}
+
+.infoGet h2 span{
+    color: #ff6600;
+    font-style: italic;
+    font-weight: 400;
+    /* color: gray; */
+}
+
+.infoGet p{
+    color: gray;
+    font-weight:400 ;
+    letter-spacing: .1rem;
+    font-size: 18px;
+}
+
+.package{
+    height: 90vh;
+    width: 100%;
+    /* background-color: #ff6600; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    font-family: "Roboto", sans-serif;
+}
+
+.package .starter{
+    height: 85%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    /* padding: 20px; */
+}
+
+.starter .rs{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(128, 128, 128, 0.098);
+    /* padding-left: 40px; */
+    border-bottom:1px solid gray ;
+}
+
+.rs p{
+    font-size: 2rem;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.rs hr{
+    /* padding: 0px 50px; */
+    width: 280px;
+    margin-left: 50px;
+}
+
+.rs h2{
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    /* font-weight: lighter; */
+}
+
+.rs h2 span{
+    font-size: 1.5rem;
+}
+
+.rs h6{
+    font-size: 1rem;
+    color: grey;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.starter .planInfo{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction:column;
+}
+
+.planInfo p{
+    font-size: 1.2rem;
+    color: grey;
+    padding: 15px 10px;
+}
+
+.planInfo p i{
+    /* height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ff6600; */
+    margin-right: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    /* color: black; */
+    text-align: center;
+}
+
+.planInfo button{
+    width: 200px;
+    height: 60px;
+    padding: 20px 40px;
+    margin: 0px 25%;
+    margin-top:30px;
+    /* background-color: #ff6600; */
+    border: none;
+    outline: none;
+}
+
+.planInfo button span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+
+.package .standard{
+    height: 85%;
+    width: 25%;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.standard .rs1{
+    width: 100%;
+    height: 40%;
+    background-color: #ff6600;
+}
+
+
+.rs1 p{
+    font-size: 2rem;
+    padding-left: 50px;
+    padding-top: 50px;
+    color: white;
+    margin: 0px;
+}
+
+.rs1 hr{
+    /* padding: 0px 50px; */
+    width: 280px;
+    margin-left: 50px;
+    color: white;
+}
+
+.rs1 h2{
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: white;
+    /* font-weight: lighter; */
+}
+
+.rs1 h2 span{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.rs1 h6{
+    font-size: 1rem;
+    color: grey;
+    padding-left: 50px;
+    padding-top: 5px;
+    color: white;
+}
+
+
+.standard .planInfo1{
+    width: 100%;
+    height: 60%;
+}
+
+.planInfo1 p{
+    font-size: 1.2rem;
+    color: grey;
+    padding: 15px 10px;
+}
+
+.planInfo1 p i{
+    /* height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ff6600; */
+    margin-right: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    /* color: black; */
+    text-align: center;
+}
+
+.planInfo1 button{
+    width: 200px;
+    height: 60px;
+    padding: 20px 40px;
+    margin: 0px 25%;
+    margin-top:30px;
+    background-color: #ff6600;
+    border: none;
+    outline: none;
+}
+
+.planInfo1 button span{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+.package .platinum{
+    height: 85%;
+    width: 25%;
+    border: 1px solid grey;
+}
+
+.platinum .rs2{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(128, 128, 128, 0.098);
+    border-bottom: 1px solid grey;
+}
+
+
+.rs2 p{
+    font-size: 2rem;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin:0;
+}
+
+.rs2 hr{
+    /* padding: 0px 50px; */
+    width: 280px;
+    margin-left: 50px;
+}
+
+.rs2 h2{
+    font-size: 3rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    /* font-weight: lighter; */
+}
+
+.rs2 h2 span{
+    font-size: 1.5rem;
+}
+
+.rs2 h6{
+    font-size: 1rem;
+    color: grey;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+
+.platinum .planInfo2{
+    width: 100%;
+    height: 60%;
+}
+
+.planInfo2 p{
+    font-size: 1.2rem;
+    color: grey;
+    padding: 15px 10px;
+}
+
+.planInfo2 p i{
+    /* height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #ff6600; */
+    margin-right: 20px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+    /* color: black; */
+    text-align: center;
+}
+
+.planInfo2 button{
+    width: 200px;
+    height: 60px;
+    padding: 20px 40px;
+    margin: 0px 25%;
+    margin-top:30px;
+    /* background-color: #ff6600; */
+    border: none;
+    outline: none;
+}
+
+.planInfo2 button span{
+    font-weight: 500;
+    font-size: 1rem;
+}

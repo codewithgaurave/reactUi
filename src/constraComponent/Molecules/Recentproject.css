@@ -1,0 +1,87 @@
+.mainProject{
+    height: 100vh;
+    width: 100%;
+}
+
+.titleSection{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.titleSection p{
+    padding-bottom: 10px;
+
+}
+
+.titleSection h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.projectParent{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+.projectParent .firstProject{
+    width: 23%;
+}
+
+.projectParent .secondProject{
+    width: 23%;
+}
+
+.projectParent .thirdProject{
+    width: 23%;
+}
+
+.projectParent .firstProject img{
+    height: 250px;
+    width: 100%;
+}
+
+.projectParent .firstProject .title{
+    font-weight: bold;
+}
+
+.projectParent .secondProject img{
+    height: 250px;
+    width: 100%;
+}
+
+.projectParent .secondProject .title{
+    font-weight: bold;
+}
+
+
+
+.projectParent .thirdProject img{
+    height: 250px;
+    width: 100%;
+}
+
+.projectParent .thirdProject .title{
+    font-weight: bold;
+}
+
+.ButtonSection{
+    height: 60px;
+    width: 200px;
+    background-color: #f39c12;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 800;
+}
+
+
+/* .ButtonSection p{
+    color: white;
+    text-align: center;
+} */

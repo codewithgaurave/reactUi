@@ -1,0 +1,66 @@
+.heroSection{
+    width: 100%;
+    height: 100vh;
+    margin-top: 100px;
+    background: url(https://demo.themefisher.com/eventre-bootstrap/images/background/homepage-one-banner.jpg) no-repeat center center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background: -webkit-linear-gradient(-45deg, #1e5799 0%, #1d1546 50%, #1a0b25 100%), url(https://demo.themefisher.com/eventre-bootstrap/images/background/homepage-one-banner.jpg) no-repeat center center;
+    background: linear-gradient(-45deg, #1e5799 0%, #1d1546 50%, #1a0b25 100%), url(https://demo.themefisher.com/eventre-bootstrap/images/background/homepage-one-banner.jpg) no-repeat center center;
+    }
+
+.heroSection .imageSection{
+    position: absolute;
+    top: 100px;
+    z-index: -1px;
+}
+
+.heroDetail{
+    height: 400px;
+    width: 500px;
+    position: absolute;
+    top:200px;
+    left: 240px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.heroDetail p{
+    font-size: 1.2rem;
+    line-height: 26px;
+    color: #848484;
+    margin-bottom: 0;
+}
+
+.heroSection h1{
+    font-size: 5.5rem;
+    color: #ff6600;
+    font-weight: 500;
+    margin-bottom: 5px;
+    text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+}
+
+.heroSection h2{
+    font-size: 4.625rem;
+    color: #fff;
+    font-weight: 400;
+    text-shadow: 3.5px 6.062px 0px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+}
+
+.heroDetail h6{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+}
+
+.heroDetail button{
+    width: 250px;
+    padding: 20px 15px;
+}
+
+.heroDetail button span{
+    font-size: 15px;
+}

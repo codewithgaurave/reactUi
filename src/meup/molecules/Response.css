@@ -1,0 +1,99 @@
+.mainResponse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    padding: 60px;
+    gap: 30px;
+}
+
+
+.left-div {
+    padding: 80px;
+    color: white;
+    height: 100%;
+    width: 40%;
+    background:url(https://demo.ovathemewp.com/meup/wp-content/uploads/2019/06/bg_home_2_1.jpg)no-repeat center;
+  }
+  
+  .sup-text {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .offer-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .discount {
+    display: flex;
+    align-items: center;
+  }
+  
+  .big-text {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .percent-off {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .percent {
+    font-size: 1.5rem;
+  }
+  
+  .off {
+    font-size: 1.2rem;
+  }
+
+.rightDiv{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 60px;
+    text-align: right;
+    color:white;
+    background: url(https://demo.ovathemewp.com/meup/wp-content/uploads/2024/01/bg_home_2_2.jpeg)no-repeat center;
+}
+.left-section {
+    flex: 1;
+    font-family: 'Arial', sans-serif;
+    padding: 20px 0px;
+    align-items: right;
+    justify-content: right;
+  }
+  
+  .left-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .left-section p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: flex-start; */
+    margin-left: 10px;
+    /* padding-left: 30px; */
+    border-left: 2px solid white;
+  }
+  
+  .right-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 0;
+  }

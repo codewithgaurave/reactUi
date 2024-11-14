@@ -1,0 +1,25 @@
+.mainDiv{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background:rgb(232, 249, 249);
+}
+
+.divData .numbers{
+    color:#e86c60;
+    text-align: center;
+    font-weight: 600;
+}
+
+.divData .eventDay{
+    font-size: 30px;
+    /* font-weight: 600; */
+}
+
+.divData .numbers span{
+    font-size: 40px;
+}
+

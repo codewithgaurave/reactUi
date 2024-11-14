@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navBar .logo {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+}
+
+.navLinks ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.navLinks ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLinks ul li:hover {
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.navLinks ul li span {
+  font-size: 30px;
+  margin-left: 3px;
+}
+
+.navLinks ul li.dropdown {
+  position: relative;
+  background-color: white;
+}
+
+
+.navLinks ul li .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  display: none;
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 200px;
+  border-top: 5px solid #ff6600;
+  height: auto;
+}
+
+.navLinks ul li:hover{
+  color: #ff6600;
+}
+
+.navLinks ul li .dropdown-menu li {
+  padding: 10px;
+  white-space: nowrap;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition-delay: 0s;
+}
+
+
+.navLinks ul li.dropdown:hover .dropdown-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.navLinks ul li.dropdown:hover .dropdown-menu li {
+  opacity: 1;
+  color: black;
+  transform: translateY(0);
+}
+
+.navLinks ul li.dropdown:hover .dropdown-menu li:nth-child(1) {
+  transition-delay: 0.1s;
+}
+.navLinks ul li.dropdown:hover .dropdown-menu li:nth-child(2) {
+  transition-delay: 0.2s;
+}
+.navLinks ul li.dropdown:hover .dropdown-menu li:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.navLinks ul li .dropdown-menu li:hover {
+  background-color: #f1f1f1;
+}
+
+
+.lastNavbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6600;
+  height: 100%;
+  gap: 20px;
+  padding: 0 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.lastNavbar:hover {
+  background-color: #ff4500;
+}
+
+.lastNavbar .textNavbar {
+  border-left: 1px solid white;
+  padding-left: 15px;
+}
+
+.lastNavbar p {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu-btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.menu-btn .menu-icon {
+  width: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-btn .menu-icon span {
+  width: 100%;
+  height: 3px;
+  background-color: #333;
+  transition: 0.3s ease-in-out;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.navLinks {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .navLinks {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .navLinks.open {
+    transform: translateX(0);
+  }
+
+  .navLinks ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-top: 30px;
+  }
+
+  .navLinks ul li {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px;
+  }
+
+  .lastNavbar {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .navLinks {
+    width: 80%;
+  }
+
+  .navLinks ul li {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,152 @@
+.navbarConstra {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.685);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  padding: 0px 100px;
+  /* position: fixed; */
+}
+
+.topNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.iconsSocial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.middleNav {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: fixed; */
+  padding: 0px 100px;
+}
+
+.detailContact {
+  height: 100px;
+  width: 60%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logoConstra {
+  width: 40%;
+}
+
+.detailContact .callUs {
+  border-right: 0.5px solid grey;
+  padding: 0px 20px;
+}
+
+.detailContact .emailUs {
+  border-right: 0.5px solid grey;
+  padding: 0px 20px;
+}
+
+.logoConstra img {
+  height: 50px;
+}
+
+.buttonQuote {
+  height: 50px;
+  width: 150px;
+  background-color: #ffb600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.buttonQuote p {
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 10px 100px;
+  /* position: fixed; */
+  width: 100%;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.menu-item {
+  position: relative;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+  color: #ffd700;
+}
+
+.menu-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-top: 5px solid #ffb600;
+  padding: 10px 0;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.menu-item i {
+  padding-left: 2px;
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+  color: black;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+.search-icon {
+  margin-left: auto;
+}
+
+.search-icon span {
+  font-size: 18px;
+  color: #fff;
+}
